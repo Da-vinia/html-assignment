@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Ununtu', sans-serif;
+    background-color: #6799bb;
+}
+
+header {
+    position: absolute;
+    z-index: 1;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+    letter-spacing: 0.15em;
+    text-shadow: 2px 2px rgb(27, 26, 26);
+    transition: all .1s ease-in-out;
+}
+
+a h1:hover {
+    transform: scale(1.10);
+    -webkit-transform: scale(1.10);
+    cursor: pointer; 
+}
+
+footer {
+    position:absolute;
+    bottom: 0%;
+    align-content: center;
+    margin: 2em;
+    width: 100%;
+}
+
+.content-footer {
+    text-align: center;
+    width: 100%;
+   
+}
+
+.content-footer ul li {
+    list-style-type: none;
+    margin-top: 0.5em ;
+}
+
+.content-footer a {
+    color: white;
+}
+
+.content-footer p {
+    color: #404d5e;
+}
+
+.content-footer .fa-heart {
+    color: #CB1CB9;
+}
+
+
+
